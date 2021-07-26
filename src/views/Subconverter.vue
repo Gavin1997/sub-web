@@ -364,6 +364,20 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "self",
+            options: [
+              {
+                label: "self_本地版本",
+                value: "config/self.ini",
+              },
+              {
+                label: "self_在线版本",
+                value:
+                  "https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/config/self.ini",
+              },
+            ],
+          },
+          {
             label: "ACL4SSR",
             options: [
               {
