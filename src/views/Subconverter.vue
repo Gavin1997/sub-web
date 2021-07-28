@@ -361,6 +361,9 @@ export default {
           {
             value: "https://subconverter-web.now.sh/sub?",
           },
+          {
+            value: "https://gavin-converter.kooldns.cn/sub?",
+          },
         ],
         remoteConfig: [
           {
