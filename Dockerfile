@@ -10,5 +10,7 @@ COPY nginx.conf /etc/nginx/
 # 启动nginx
 RUN service nginx start
 
+# docker build -t subweb-local:latest .
+# docker run -d --restart=always -p 58080:80 subweb-local:latest 
 # 导出端口
 EXPOSE 80
